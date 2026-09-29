@@ -1,56 +1,89 @@
-# Welcome to your Expo app 👋
+# React Native Expo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern mobile application built with **React Native and Expo**, designed with a clean and responsive interface. This project demonstrates practical mobile application development using the Expo ecosystem.
 
-## Get started
+## Overview
 
-1. Install dependencies
+This application is developed as part of my Software Engineering learning journey, with a focus on building cross-platform mobile applications using React Native.
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+* React Native
+* Expo
+* Expo Router
+* TypeScript
+* JavaScript
+* Node.js
+* npm
 
-   ```bash
-   npx expo start
-   ```
+## Features
 
-In the output, you'll find options to open the app in a
+* Cross-platform mobile application
+* Clean and responsive user interface
+* File-based navigation
+* Reusable React Native components
+* Easy development and testing with Expo
+* Scalable project structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+project/
+├── app/
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   └── ...
+├── assets/
+├── components/
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Installation
 
-### Other setup steps
+Clone the repository:
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+git clone YOUR_REPOSITORY_URL
+```
 
-## Learn more
+Navigate to the project directory:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd YOUR_PROJECT_NAME
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Install dependencies:
 
-## Join the community
+```bash
+npm install
+```
 
-Join our community of developers creating universal apps.
+Start the development server:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+## Running the Application
+
+After starting the Expo development server, you can run the application using:
+
+* Expo Go
+* Android Emulator
+* iOS Simulator
+* Web Browser
+
+## Development
+
+The main application code is located inside the `app` directory.
+
+Make your changes and save the files. Expo will automatically reload the application during development.
+
+## Future Improvements
+
+* API integration
+* Authentication system
+* Backend integration
+* Database conne
